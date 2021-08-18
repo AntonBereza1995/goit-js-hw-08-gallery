@@ -96,15 +96,6 @@ function createGalleryItems(galleryItems) {
 
 }
 
-// function onGallaryClick(evt) {
- 
-//   const isGallaryImages = evt.target.contains("gallery__image");
-//   if (!isGallaryImages) {
-//     return;
-//   }
-
-// }
-
 const modal = document.querySelector(".js-lightbox");
 const isOpenModalImg = document.querySelector(".lightbox__image");
 const closeBtn = document.querySelector(".lightbox__button");
